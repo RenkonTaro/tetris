@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript テトリス (完成版)</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>JavaScript テトリス</h1>
+    <div class="game-wrapper">
+        <canvas id="tetris-canvas" width="300" height="600"></canvas>
+        <div class="side-panel">
+            <div class="score-container">
+                <h2>SCORE: <span id="score-display">0</span></h2>
+            </div>
+            <div class="next-container">
+                <h2>NEXT</h2>
+                <canvas id="next-canvas" width="120" height="120"></canvas>
+            </div>
+            <div class="level-container">
+                <h2>LEVEL: <span id="level-display">1</span></h2>
+            </div>
+        </div>
+    </div>
+    <script src="tetris.js"></script>
+</body>
+</html>
